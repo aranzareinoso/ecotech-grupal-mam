@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Empleado:
-    def __init__(self, idEmpleado: str, nombre: str, direccion: str, numero: str, direccion_de_correo: str, fecha_de_contrato: datetime, salario: float, cargo: int):
+    def __init__(self, nombre: str, direccion: str, numero: str, direccion_de_correo: str, fecha_de_contrato: datetime, salario: float, cargo: int, idEmpleado= None):
         self.idEmpleado = idEmpleado
         self.nombre = nombre
         self.direccion = direccion
