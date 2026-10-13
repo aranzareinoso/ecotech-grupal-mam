@@ -1,3 +1,4 @@
+# persistencia/empleado_dao.py
 from persistencia.conexion import abrir_conexion, obtener_motor, marcador_sql
 from dominio.proyecto import Proyecto
 class ProyectoDao:

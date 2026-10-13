@@ -1,3 +1,4 @@
+# persistencia/crear_bd.py
 from persistencia.conexion import (abrir_conexion,obtener_motor )
 
 def crear_tablas():

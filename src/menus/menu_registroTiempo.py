@@ -1,4 +1,5 @@
 from persistencia.registroTiempo_dao import RegistroTiempoDAO
+#from src.main import main
 
 
 def mostrar_menu_RegistroTiempo():
@@ -29,5 +30,6 @@ def main_RegistroTiempo():
                         break
                 else:
                         print("Opción no válida.")
+        #revisar
 if __name__ == "__main__":
         main_RegistroTiempo()

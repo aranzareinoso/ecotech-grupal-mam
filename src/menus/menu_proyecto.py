@@ -1,4 +1,5 @@
 from persistencia.proyecto_dao import ProyectoDao
+#from src.main import main
 
 def mostrar_menu_proyecto():
     print("\n===== ECOTECH =====")
@@ -35,5 +36,6 @@ def main_proyecto():
         
         else:
                     print("Opción no válida.")
+    #revisar
 if __name__ == "__main__":
         main_proyecto()

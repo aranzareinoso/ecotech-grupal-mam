@@ -1,5 +1,5 @@
 from persistencia.empleado_dao import EmpleadoDAO
-
+#from src.main import main
 def mostrar_menu_empleado():
     print("\n===== ECOTECH =====")
     print("1. Registrar Empleado")
@@ -36,5 +36,6 @@ def main_empleado():
 
         else:
             print("Opción no válida.")
+#revisar
 if __name__ == "__main__":
     main_empleado()

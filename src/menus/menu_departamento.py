@@ -1,4 +1,5 @@
 from persistencia.departamento_dao import DepartamentoDAO
+#from src.main import main
 
 def mostrar_menu_departementos():
     print("\n===== ECOTECH =====")
@@ -35,5 +36,6 @@ def main_departamento():
         
         else:
                     print("Opción no válida.")
+    #revisar
 if __name__ == "__main__":
         main_departamento()
